@@ -13,15 +13,15 @@
         android:layout_marginHorizontal="16dp"
         android:layout_marginEnd="96dp"
         android:paddingTop="16dp"
-        android:text="Hello Lunar!"
-        android:textSize="40dp"
+        android:text="@string/hello_lunar"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.098" />
 
     <ImageView
-
+        android:contentDescription="@string/bottom_sheet_behavior"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:src="@drawable/bobi"
